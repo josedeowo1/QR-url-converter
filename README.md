@@ -8,7 +8,7 @@ Generador de Qr a partir de URL
 ## Instalación
 
 1. Clona el repositorio
-git clone https://github.com/tuusuario/generador-qr.git
+git clone https://github.com/josedeowo1/QR-url-converter.git
 cd generador-qr```
 
 2. Crea el entorno virtual e instala dependencias
