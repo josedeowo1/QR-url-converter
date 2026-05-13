@@ -9,7 +9,7 @@ print(figlet_format("Generador Qr", font="doom"))
 
 url = input("Ingrese su url: ")
 resultado=urlparse(url)
-
+nombrearchivo=input("ingrese nombre del archivo a guardar: ")
 
 
 if not resultado.scheme or not resultado.netloc :
@@ -46,4 +46,4 @@ else:
         image.paste(logoqr,(int(x),int(y)),mask=logoqr)
     else:
         print("generando qr")
-image.save("nombrearchivo.png")
+image.save(nombrearchivo + ".png")
