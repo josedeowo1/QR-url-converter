@@ -22,5 +22,7 @@ python qrconverter.py
 ## Ejemplo 
 
 "ingrese url: https://www.youtube.com/"
+"Desea agregar logo? y/n
+"ingrese un logo arrastrando la imagen o agregando la ruta"
 
 ¡y se generara un codigo qr de su URL!
